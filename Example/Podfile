@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PurchEaseKit_Example' do
+  pod 'PurchEaseKit', :path => '../'
+
+  target 'PurchEaseKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

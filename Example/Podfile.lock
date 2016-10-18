@@ -1,0 +1,16 @@
+PODS:
+  - PurchEaseKit (0.1.1)
+
+DEPENDENCIES:
+  - PurchEaseKit (from `../`)
+
+EXTERNAL SOURCES:
+  PurchEaseKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PurchEaseKit: 49ae1c8d4834732b512994011cd97bb593105047
+
+PODFILE CHECKSUM: 78ac74008601799282fc7198542370311e233fb6
+
+COCOAPODS: 1.0.1

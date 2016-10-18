@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7EC3189EE3EAB80B1023C84D243734DA42DE9200",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7EC3189EE3EAB80B1023C84D243734DA42DE9200" : 0,
+    "59E426A5D3BCFB4DF1C1CAFA5E2F8D999D3740E2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6039777B-E622-409C-BA70-264A3540C59A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7EC3189EE3EAB80B1023C84D243734DA42DE9200" : "PurchEaseKit\/",
+    "59E426A5D3BCFB4DF1C1CAFA5E2F8D999D3740E2" : "..\/purchease-kit-ios-new"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PurchEaseKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/PurchEaseKit.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/purchease\/purchease-kit-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "59E426A5D3BCFB4DF1C1CAFA5E2F8D999D3740E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/purchease\/PurchEaseKit",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7EC3189EE3EAB80B1023C84D243734DA42DE9200"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "PurchEaseKit",
+  "version": "0.1.1",
+  "summary": "PurchEaseKit framework as a Pod",
+  "description": "Le PurchEaseKit est un framework donnant la possibilité aux développeurs d'accéder facilement à un workflow de traitement de tickets, visant à confirmer la présence d'un ou plusieurs produits sur le reçu.",
+  "homepage": "https://github.com/ImHatman/PurchEaseKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Cyril": "cyril@purchease.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/ImHatman/PurchEaseKit.git",
+    "tag": "0.1.1"
+  },
+  "frameworks": [
+    "CoreMotion",
+    "AssetsLibrary"
+  ],
+  "libraries": "stdc++",
+  "vendored_frameworks": [
+    "PurchEaseKit.framework",
+    "opencv2.framework"
+  ],
+  "resource_bundles": {
+    "PurchEaseKit": "PurchEaseKit/Assets/PurchEaseKit.bundle/*.png"
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC -all_load",
+    "FRAMEWORK_SEARCH_PATHS": "."
+  },
+  "xcconfig": {
+    "LD_RUNPATH_SEARCH_PATHS": "@loader_path/../Frameworks"
+  }
+}

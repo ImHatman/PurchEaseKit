@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009F81C5F3B5AC106136997228AEF5F0 /* black-gradient-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19599AF9A550A0F90350C27742FDF885 /* black-gradient-background@2x.png */; };
+		0559250C9D3F888B98D20300A8D945A5 /* light-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 335CEFF77AF3D2008D0B7018AB1B6774 /* light-off@2x.png */; };
+		09E022D846260A10A66FD7A3A129D758 /* dont-shake@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD35E278B8D5FE33E070505CF95F5A60 /* dont-shake@3x.png */; };
+		0C696A744BCFF685B1DAA7A184060882 /* yellow-bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = F417052749A6B18B213E0120E6BCE85F /* yellow-bubble.png */; };
+		12031D92D8EBE6DD9B3F9C123CAE1386 /* cart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BEFD16A13FFC79D7E14D1C8FF003D54 /* cart@3x.png */; };
+		134890FA4D5C4ED75191109BCBBD13DE /* Pods-PurchEaseKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4B6E8623B54153C91DBB59B9F3737 /* Pods-PurchEaseKit_Example-dummy.m */; };
+		16E819632C4FCB0C0AF26320C9D07142 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = E02B303C494C1929FE12F6D1E5B2CC6C /* close.png */; };
+		2017B1F65D46C70E907571CC4CC1879C /* hexa-mask@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A63D9C0BBE9E88136885DA47555A7 /* hexa-mask@3x.png */; };
+		204558EDCD39010E2254021C67F0AC81 /* 739-question.png in Resources */ = {isa = PBXBuildFile; fileRef = 694B03C08390C6C7861CB61E1BD1145A /* 739-question.png */; };
+		2556A55D716F41AFCCF929993D9AD5ED /* light-off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6264847A6B0F4176F73EF7BBB943D972 /* light-off@3x.png */; };
+		26CE3382D61C24D55FF90786F6ECDEEE /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABD53BD0E9177D86FD65EC05A0962D6 /* close@3x.png */; };
+		2AD2D344EE1CFC58394DE34BEF4875C8 /* searching_receipt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D2B50F17E0EC2F6916696B839942D3 /* searching_receipt@3x.png */; };
+		307BE79CE20BAFD4305C5F556FCF4D3C /* basket@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE440EFF569DC436170BB65C29C6E8D /* basket@3x.png */; };
+		323328EF0DD3B9143276AD048AF1698B /* receipt-bottom-part@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE676F5E1FFC3ACD161F58AEF1832E9 /* receipt-bottom-part@2x.png */; };
+		34BF705D867DAAFB41CF422120E6102B /* mini-receipt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5572FA694ABBC6B86BFF31D4DE59931E /* mini-receipt@3x.png */; };
+		3A58432D4ABEDC90E147588B2E297237 /* check-green@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78CD30B76F939BBF4EFBA8CC8C8CCF61 /* check-green@3x.png */; };
+		3CD3BAA24EF848D7F473DC3676ED0ABE /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04032DD6209E2608F6AA41921E5F750C /* close@2x.png */; };
+		404E0A82ABC7FB9F7A27C1A72FF35E24 /* receipt-top-part-validated.png in Resources */ = {isa = PBXBuildFile; fileRef = ED7755969CDAD096EA55DC35C7A262E5 /* receipt-top-part-validated.png */; };
+		4201AC40FC3CA4DC43EF49F4F887B1B1 /* receipt-bottom-part-validated@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD5B680F54FD44CA39CE9DB18D5338 /* receipt-bottom-part-validated@2x.png */; };
+		42348C0FE4850CF1973ADA896D1009A8 /* mini-receipt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ED71ABE5F0933A7354CF5D8CC1683C0 /* mini-receipt@2x.png */; };
+		43E7B7A6B2C2CE486CBBF1A1458F10AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		444E18175D39896B04E602F8880EBF89 /* degrade@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 715478853334F813B399C6A1A4050421 /* degrade@2x.png */; };
+		44A6986D9F8E27FF072E8AA75AB6E73A /* receipt-top-part-validated@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 516C6CF0A58C315BE77D24D2AA284172 /* receipt-top-part-validated@3x.png */; };
+		52BEB723BCA290A140AD1D71615424B2 /* basket.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3EC46A47033264D313E04C33B51EE1 /* basket.png */; };
+		57CD84BB520E9EA44A4A7500CC36F16E /* black-gradient-background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA8CE741F6A9F8C5A426D79C14FC55A /* black-gradient-background@3x.png */; };
+		586F6CB4FD24F08807DE8B3B377136F5 /* receipt-top-part@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7446E2DC749662F9B912D972A9F07F /* receipt-top-part@3x.png */; };
+		5D7A7E800C52A75EB39F4D5AA37F3A27 /* degrade@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96512444F226EB120F0AEB756C114326 /* degrade@3x.png */; };
+		5E8D7FC3F1A859A354F14FB78FA88258 /* check-green.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E3E0747B05FCB05D9ECE7988678D60 /* check-green.png */; };
+		5F1031F0DCB07E260C27928C303A15C2 /* receipt-bottom-part@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B518C94F97CB53E72031EEE93B38B8 /* receipt-bottom-part@3x.png */; };
+		5FFCFA9A5D71A6BB6705927A159E9762 /* receipt-bottom-part.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FAB909A179E163169377B0451FA9E2A /* receipt-bottom-part.png */; };
+		604AA9A0B6A2C41B6DD14570316B99C5 /* searching_receipt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB07CCC5766BBC582DD8AAEC6396524E /* searching_receipt@2x.png */; };
+		62B77365C9FD4C8C4B76B3C19C9E7924 /* searching_receipt.png in Resources */ = {isa = PBXBuildFile; fileRef = C797817E7B4DDFA458BF570D8A830E10 /* searching_receipt.png */; };
+		64254192C90226964B70C30A90AFC6A7 /* receipt-bottom-part-validated@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6266693A7B2525482E49180576C9F019 /* receipt-bottom-part-validated@3x.png */; };
+		6F8CC41A6789CBAB39856D7463CA38B2 /* mini-receipt.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E745F8160CC671076CA12362C3EF3B2 /* mini-receipt.png */; };
+		73F73AA44406FF139CCECB901FCA7FD5 /* check-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA8A6E6406134D608BD611B66646264 /* check-green@2x.png */; };
+		8109FAE69A31EEBA19D25D3BB705048F /* hexa-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10401275005F3CF5B18E3F4E2407315D /* hexa-mask@2x.png */; };
+		85D9E07AB5D4424CC3414115EB9BEAB3 /* Pods-PurchEaseKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 876CB1981C5CA73656E4A677C1D2AD85 /* Pods-PurchEaseKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		878EFE3B3D6EADF58442E5A9F5D40C91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		8C6A00B59EA79C7C658269C8C382A267 /* receipt-top-part@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F821D527F98B989D11C82015B9DFBD /* receipt-top-part@2x.png */; };
+		8DDE92CC71589B1B89010D85EFBBBAF7 /* yellow-bubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CB794539584C3A2887E013C9399C2C /* yellow-bubble@2x.png */; };
+		A62DC77544F529694EC61113C4870692 /* hexa-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 9757D73C5912FA917681F2650028F8FA /* hexa-mask.png */; };
+		B798805AFBAD5BC137FE85C6D625FA8F /* black-gradient-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D1C44F2C40A13093A769E1372D85570 /* black-gradient-background.png */; };
+		B9577D00C3D1AB165250E9D4BB78379A /* receipt-top-part-validated@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F618291F2E1AE447FFE0869DE63FB352 /* receipt-top-part-validated@2x.png */; };
+		BAC919DC62F6C999E723E43C407FB291 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FAA889A149B6D23D59BC705EC6386F8 /* cart.png */; };
+		BBC9D89345DC077B356AC7875ED8F4F2 /* 739-question@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72185A04524B16838B06979037C42E83 /* 739-question@2x.png */; };
+		BCE3D1E77E33CE488B831A0B80315750 /* light-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4265A3F5D17CA4176FA9538F0EC00AE6 /* light-on@2x.png */; };
+		C2E563733C17F22BBA6068C57A2FA1C9 /* receipt-top-part.png in Resources */ = {isa = PBXBuildFile; fileRef = 45E594DF7AE481535D1391BB6ABD37D1 /* receipt-top-part.png */; };
+		C369A8BB9FB384CDABD90B1898D592E1 /* basket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBBAF48EF3D35A2E1C4527F784793BC1 /* basket@2x.png */; };
+		C42CF4C2D55DEBAB05795AF2A911E1D7 /* cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8D6B125B1A5DDAA1FB072E288F3B3 /* cart@2x.png */; };
+		D501C22471CC0D657815B1868F2B9196 /* light-on.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB706DD677E55153992245B21E0A790 /* light-on.png */; };
+		DF953F670D68BFDB3910E6D9FB963A6B /* dont-shake.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5A73DA349875FAB0D907558DF0B9E6 /* dont-shake.png */; };
+		E3F5770F0490AA1F008B64FDF1B798C3 /* light-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 2325F6086680B743DEC93325AB344520 /* light-off.png */; };
+		E42154333B1BAF839387B3C32581F0E1 /* degrade.png in Resources */ = {isa = PBXBuildFile; fileRef = 19D0C3B743902A1C82D351F5B2F99F9A /* degrade.png */; };
+		E4987F85B0591CC7CBF362DA9E95B613 /* dont-shake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A8C75735F99C308856DD233A9BDEEE3 /* dont-shake@2x.png */; };
+		E9F96C6C74E2717E3399F0D7FD9FA73B /* Pods-PurchEaseKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 631DCB329909F15FAFF086D3D42311CE /* Pods-PurchEaseKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED3AA0317865365FA2321190D264F19E /* yellow-bubble@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5DCF52DCAB660372D6F636B76481A7 /* yellow-bubble@3x.png */; };
+		F0870DF872E707C8F8020B1B2416A974 /* Pods-PurchEaseKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75306792D0900FD15C27AAD6A2893B05 /* Pods-PurchEaseKit_Tests-dummy.m */; };
+		F87BBDA361A4E430221D18C3B58C770A /* shooter-close.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E09CC71FB52186A5CCD2FD29C1AF3BE /* shooter-close.png */; };
+		F8BCDEFB106C994F44FE23E450A56544 /* receipt-bottom-part-validated.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECAB73A679BB5964630C494BFEB705E /* receipt-bottom-part-validated.png */; };
+		FCC148D1651E4231444DE1D8C69B83CA /* shooter-close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2BEA18A10A2756FE55B777E58D980FB /* shooter-close@2x.png */; };
+		FD89DF3B860E91081A1183603FCFB047 /* light-on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61C476584398612EBAE72C376F94CA4F /* light-on@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3929FE6DBBCE7473A8E2D38879628AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DC40FEC18948171B5483690E4D48818;
+			remoteInfo = "PurchEaseKit-PurchEaseKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04032DD6209E2608F6AA41921E5F750C /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		0BA8D6B125B1A5DDAA1FB072E288F3B3 /* cart@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cart@2x.png"; sourceTree = "<group>"; };
+		0EA8CE741F6A9F8C5A426D79C14FC55A /* black-gradient-background@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "black-gradient-background@3x.png"; sourceTree = "<group>"; };
+		10401275005F3CF5B18E3F4E2407315D /* hexa-mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hexa-mask@2x.png"; sourceTree = "<group>"; };
+		19599AF9A550A0F90350C27742FDF885 /* black-gradient-background@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "black-gradient-background@2x.png"; sourceTree = "<group>"; };
+		19D0C3B743902A1C82D351F5B2F99F9A /* degrade.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = degrade.png; sourceTree = "<group>"; };
+		1A75F3065ADBEBF7D9B63C7D6FF78A15 /* Pods-PurchEaseKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurchEaseKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		22BA6992E48EBF3FE5F2D0F0E8464751 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		2325F6086680B743DEC93325AB344520 /* light-off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "light-off.png"; sourceTree = "<group>"; };
+		2E745F8160CC671076CA12362C3EF3B2 /* mini-receipt.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "mini-receipt.png"; sourceTree = "<group>"; };
+		335CEFF77AF3D2008D0B7018AB1B6774 /* light-off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "light-off@2x.png"; sourceTree = "<group>"; };
+		39B076C2601E18E523B30F3E096346FF /* Pods-PurchEaseKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PurchEaseKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3BEFD16A13FFC79D7E14D1C8FF003D54 /* cart@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cart@3x.png"; sourceTree = "<group>"; };
+		3D3A63D9C0BBE9E88136885DA47555A7 /* hexa-mask@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hexa-mask@3x.png"; sourceTree = "<group>"; };
+		3ECAB73A679BB5964630C494BFEB705E /* receipt-bottom-part-validated.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "receipt-bottom-part-validated.png"; sourceTree = "<group>"; };
+		3F062E72AC2F576CB422331FC93F029B /* Pods-PurchEaseKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PurchEaseKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		40EFAD35D84C682A1BFAEDF7731F2314 /* Pods-PurchEaseKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurchEaseKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4265A3F5D17CA4176FA9538F0EC00AE6 /* light-on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "light-on@2x.png"; sourceTree = "<group>"; };
+		45E594DF7AE481535D1391BB6ABD37D1 /* receipt-top-part.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "receipt-top-part.png"; sourceTree = "<group>"; };
+		4DE440EFF569DC436170BB65C29C6E8D /* basket@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "basket@3x.png"; sourceTree = "<group>"; };
+		516C6CF0A58C315BE77D24D2AA284172 /* receipt-top-part-validated@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "receipt-top-part-validated@3x.png"; sourceTree = "<group>"; };
+		5572FA694ABBC6B86BFF31D4DE59931E /* mini-receipt@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "mini-receipt@3x.png"; sourceTree = "<group>"; };
+		55F821D527F98B989D11C82015B9DFBD /* receipt-top-part@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "receipt-top-part@2x.png"; sourceTree = "<group>"; };
+		57CD5B680F54FD44CA39CE9DB18D5338 /* receipt-bottom-part-validated@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "receipt-bottom-part-validated@2x.png"; sourceTree = "<group>"; };
+		60B518C94F97CB53E72031EEE93B38B8 /* receipt-bottom-part@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "receipt-bottom-part@3x.png"; sourceTree = "<group>"; };
+		61C476584398612EBAE72C376F94CA4F /* light-on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "light-on@3x.png"; sourceTree = "<group>"; };
+		6264847A6B0F4176F73EF7BBB943D972 /* light-off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "light-off@3x.png"; sourceTree = "<group>"; };
+		6266693A7B2525482E49180576C9F019 /* receipt-bottom-part-validated@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "receipt-bottom-part-validated@3x.png"; sourceTree = "<group>"; };
+		62963D3DA744FF6C578F800C1C8CBA62 /* Pods-PurchEaseKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurchEaseKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		631DCB329909F15FAFF086D3D42311CE /* Pods-PurchEaseKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PurchEaseKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		694B03C08390C6C7861CB61E1BD1145A /* 739-question.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "739-question.png"; sourceTree = "<group>"; };
+		6A8C75735F99C308856DD233A9BDEEE3 /* dont-shake@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dont-shake@2x.png"; sourceTree = "<group>"; };
+		6D1C44F2C40A13093A769E1372D85570 /* black-gradient-background.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "black-gradient-background.png"; sourceTree = "<group>"; };
+		6FAB909A179E163169377B0451FA9E2A /* receipt-bottom-part.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "receipt-bottom-part.png"; sourceTree = "<group>"; };
+		70A050E3B8F2CDCD51AA4279694AE178 /* Pods-PurchEaseKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PurchEaseKit_Example-resources.sh"; sourceTree = "<group>"; };
+		715478853334F813B399C6A1A4050421 /* degrade@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "degrade@2x.png"; sourceTree = "<group>"; };
+		72185A04524B16838B06979037C42E83 /* 739-question@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "739-question@2x.png"; sourceTree = "<group>"; };
+		72A31ED9C6989E9BE9CC4B063E8FE4E8 /* Pods_PurchEaseKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PurchEaseKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75306792D0900FD15C27AAD6A2893B05 /* Pods-PurchEaseKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PurchEaseKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		75D7FFF2E1E2BB82D91BA6336EBEA8A4 /* Pods-PurchEaseKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PurchEaseKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78CD30B76F939BBF4EFBA8CC8C8CCF61 /* check-green@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "check-green@3x.png"; sourceTree = "<group>"; };
+		7AE4B6E8623B54153C91DBB59B9F3737 /* Pods-PurchEaseKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PurchEaseKit_Example-dummy.m"; sourceTree = "<group>"; };
+		7ED71ABE5F0933A7354CF5D8CC1683C0 /* mini-receipt@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "mini-receipt@2x.png"; sourceTree = "<group>"; };
+		876CB1981C5CA73656E4A677C1D2AD85 /* Pods-PurchEaseKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PurchEaseKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8ABD53BD0E9177D86FD65EC05A0962D6 /* close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
+		8E09CC71FB52186A5CCD2FD29C1AF3BE /* shooter-close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "shooter-close.png"; sourceTree = "<group>"; };
+		9029B1419A328F86502E5318C13936A1 /* Pods-PurchEaseKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PurchEaseKit_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96512444F226EB120F0AEB756C114326 /* degrade@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "degrade@3x.png"; sourceTree = "<group>"; };
+		9757D73C5912FA917681F2650028F8FA /* hexa-mask.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hexa-mask.png"; sourceTree = "<group>"; };
+		9AE676F5E1FFC3ACD161F58AEF1832E9 /* receipt-bottom-part@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "receipt-bottom-part@2x.png"; sourceTree = "<group>"; };
+		9F5A73DA349875FAB0D907558DF0B9E6 /* dont-shake.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dont-shake.png"; sourceTree = "<group>"; };
+		9FAA889A149B6D23D59BC705EC6386F8 /* cart.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		A3DB0C34033E65CCFA5DEC79F42807B1 /* ResourceBundle-PurchEaseKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PurchEaseKit-Info.plist"; sourceTree = "<group>"; };
+		A5305B71D8DA8D38BA8EFC96F3D80E9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7446E2DC749662F9B912D972A9F07F /* receipt-top-part@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "receipt-top-part@3x.png"; sourceTree = "<group>"; };
+		AD35E278B8D5FE33E070505CF95F5A60 /* dont-shake@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dont-shake@3x.png"; sourceTree = "<group>"; };
+		AFBA9AC2393135BA7E5623426E1FB45C /* Pods-PurchEaseKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PurchEaseKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4F903892AA3B40D3A1A68D89E251F26 /* PurchEaseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PurchEaseKit.framework; sourceTree = "<group>"; };
+		B89AA140C48C75CA0F2CE954057D2E0D /* Pods-PurchEaseKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PurchEaseKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BACBEA85678DAF4B5FCEE530A9D6F317 /* Pods-PurchEaseKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PurchEaseKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		BEA8A6E6406134D608BD611B66646264 /* check-green@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "check-green@2x.png"; sourceTree = "<group>"; };
+		BF5DCF52DCAB660372D6F636B76481A7 /* yellow-bubble@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "yellow-bubble@3x.png"; sourceTree = "<group>"; };
+		C1C880E248FD6E53790AAB7F5E14DF29 /* Pods-PurchEaseKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PurchEaseKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7634E2DB4C8D758E7E6BB1708E703F8 /* PurchEaseKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PurchEaseKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C797817E7B4DDFA458BF570D8A830E10 /* searching_receipt.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = searching_receipt.png; sourceTree = "<group>"; };
+		CB07CCC5766BBC582DD8AAEC6396524E /* searching_receipt@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "searching_receipt@2x.png"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D097D8C7CB7756895B716AC762960D96 /* Pods_PurchEaseKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PurchEaseKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CB794539584C3A2887E013C9399C2C /* yellow-bubble@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "yellow-bubble@2x.png"; sourceTree = "<group>"; };
+		D2BEA18A10A2756FE55B777E58D980FB /* shooter-close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "shooter-close@2x.png"; sourceTree = "<group>"; };
+		D6E3E0747B05FCB05D9ECE7988678D60 /* check-green.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "check-green.png"; sourceTree = "<group>"; };
+		D7D2B50F17E0EC2F6916696B839942D3 /* searching_receipt@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "searching_receipt@3x.png"; sourceTree = "<group>"; };
+		DBBAF48EF3D35A2E1C4527F784793BC1 /* basket@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "basket@2x.png"; sourceTree = "<group>"; };
+		E02B303C494C1929FE12F6D1E5B2CC6C /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		E67EA5F6BF0121133425227F876DEBD9 /* Pods-PurchEaseKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PurchEaseKit_Tests.modulemap"; sourceTree = "<group>"; };
+		ED7755969CDAD096EA55DC35C7A262E5 /* receipt-top-part-validated.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "receipt-top-part-validated.png"; sourceTree = "<group>"; };
+		EEB706DD677E55153992245B21E0A790 /* light-on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "light-on.png"; sourceTree = "<group>"; };
+		EF3EC46A47033264D313E04C33B51EE1 /* basket.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = basket.png; sourceTree = "<group>"; };
+		F417052749A6B18B213E0120E6BCE85F /* yellow-bubble.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "yellow-bubble.png"; sourceTree = "<group>"; };
+		F618291F2E1AE447FFE0869DE63FB352 /* receipt-top-part-validated@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "receipt-top-part-validated@2x.png"; sourceTree = "<group>"; };
+		F75404A9D357CC3EEF3942C56708A576 /* Pods-PurchEaseKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurchEaseKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FCF7E2EDC793C8C13A1C71949C580E7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01C35AFDBE673A00868971F52D134274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F65F8AE39F44245DF68C974A6941CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E7B7A6B2C2CE486CBBF1A1458F10AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD52FE7B9D78121912600920B0EB9894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878EFE3B3D6EADF58442E5A9F5D40C91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34A6E3C2B0115137456D93FB47CA2416 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A26BEC39E55FBA9D3B3879EE1AA7FD3 /* PurchEaseKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3E60BC1329C59F2E9E28EE7ACFB30B9E /* PurchEaseKit.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				694B03C08390C6C7861CB61E1BD1145A /* 739-question.png */,
+				72185A04524B16838B06979037C42E83 /* 739-question@2x.png */,
+				EF3EC46A47033264D313E04C33B51EE1 /* basket.png */,
+				DBBAF48EF3D35A2E1C4527F784793BC1 /* basket@2x.png */,
+				4DE440EFF569DC436170BB65C29C6E8D /* basket@3x.png */,
+				6D1C44F2C40A13093A769E1372D85570 /* black-gradient-background.png */,
+				19599AF9A550A0F90350C27742FDF885 /* black-gradient-background@2x.png */,
+				0EA8CE741F6A9F8C5A426D79C14FC55A /* black-gradient-background@3x.png */,
+				9FAA889A149B6D23D59BC705EC6386F8 /* cart.png */,
+				0BA8D6B125B1A5DDAA1FB072E288F3B3 /* cart@2x.png */,
+				3BEFD16A13FFC79D7E14D1C8FF003D54 /* cart@3x.png */,
+				D6E3E0747B05FCB05D9ECE7988678D60 /* check-green.png */,
+				BEA8A6E6406134D608BD611B66646264 /* check-green@2x.png */,
+				78CD30B76F939BBF4EFBA8CC8C8CCF61 /* check-green@3x.png */,
+				E02B303C494C1929FE12F6D1E5B2CC6C /* close.png */,
+				04032DD6209E2608F6AA41921E5F750C /* close@2x.png */,
+				8ABD53BD0E9177D86FD65EC05A0962D6 /* close@3x.png */,
+				19D0C3B743902A1C82D351F5B2F99F9A /* degrade.png */,
+				715478853334F813B399C6A1A4050421 /* degrade@2x.png */,
+				96512444F226EB120F0AEB756C114326 /* degrade@3x.png */,
+				9F5A73DA349875FAB0D907558DF0B9E6 /* dont-shake.png */,
+				6A8C75735F99C308856DD233A9BDEEE3 /* dont-shake@2x.png */,
+				AD35E278B8D5FE33E070505CF95F5A60 /* dont-shake@3x.png */,
+				9757D73C5912FA917681F2650028F8FA /* hexa-mask.png */,
+				10401275005F3CF5B18E3F4E2407315D /* hexa-mask@2x.png */,
+				3D3A63D9C0BBE9E88136885DA47555A7 /* hexa-mask@3x.png */,
+				2325F6086680B743DEC93325AB344520 /* light-off.png */,
+				335CEFF77AF3D2008D0B7018AB1B6774 /* light-off@2x.png */,
+				6264847A6B0F4176F73EF7BBB943D972 /* light-off@3x.png */,
+				EEB706DD677E55153992245B21E0A790 /* light-on.png */,
+				4265A3F5D17CA4176FA9538F0EC00AE6 /* light-on@2x.png */,
+				61C476584398612EBAE72C376F94CA4F /* light-on@3x.png */,
+				2E745F8160CC671076CA12362C3EF3B2 /* mini-receipt.png */,
+				7ED71ABE5F0933A7354CF5D8CC1683C0 /* mini-receipt@2x.png */,
+				5572FA694ABBC6B86BFF31D4DE59931E /* mini-receipt@3x.png */,
+				6FAB909A179E163169377B0451FA9E2A /* receipt-bottom-part.png */,
+				3ECAB73A679BB5964630C494BFEB705E /* receipt-bottom-part-validated.png */,
+				57CD5B680F54FD44CA39CE9DB18D5338 /* receipt-bottom-part-validated@2x.png */,
+				6266693A7B2525482E49180576C9F019 /* receipt-bottom-part-validated@3x.png */,
+				9AE676F5E1FFC3ACD161F58AEF1832E9 /* receipt-bottom-part@2x.png */,
+				60B518C94F97CB53E72031EEE93B38B8 /* receipt-bottom-part@3x.png */,
+				45E594DF7AE481535D1391BB6ABD37D1 /* receipt-top-part.png */,
+				ED7755969CDAD096EA55DC35C7A262E5 /* receipt-top-part-validated.png */,
+				F618291F2E1AE447FFE0869DE63FB352 /* receipt-top-part-validated@2x.png */,
+				516C6CF0A58C315BE77D24D2AA284172 /* receipt-top-part-validated@3x.png */,
+				55F821D527F98B989D11C82015B9DFBD /* receipt-top-part@2x.png */,
+				AB7446E2DC749662F9B912D972A9F07F /* receipt-top-part@3x.png */,
+				C797817E7B4DDFA458BF570D8A830E10 /* searching_receipt.png */,
+				CB07CCC5766BBC582DD8AAEC6396524E /* searching_receipt@2x.png */,
+				D7D2B50F17E0EC2F6916696B839942D3 /* searching_receipt@3x.png */,
+				8E09CC71FB52186A5CCD2FD29C1AF3BE /* shooter-close.png */,
+				D2BEA18A10A2756FE55B777E58D980FB /* shooter-close@2x.png */,
+				F417052749A6B18B213E0120E6BCE85F /* yellow-bubble.png */,
+				D1CB794539584C3A2887E013C9399C2C /* yellow-bubble@2x.png */,
+				BF5DCF52DCAB660372D6F636B76481A7 /* yellow-bubble@3x.png */,
+			);
+			path = PurchEaseKit.bundle;
+			sourceTree = "<group>";
+		};
+		4CE00CB2D93FABDCBBC0277004852C6F /* Pods-PurchEaseKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A5305B71D8DA8D38BA8EFC96F3D80E9D /* Info.plist */,
+				E67EA5F6BF0121133425227F876DEBD9 /* Pods-PurchEaseKit_Tests.modulemap */,
+				AFBA9AC2393135BA7E5623426E1FB45C /* Pods-PurchEaseKit_Tests-acknowledgements.markdown */,
+				3F062E72AC2F576CB422331FC93F029B /* Pods-PurchEaseKit_Tests-acknowledgements.plist */,
+				75306792D0900FD15C27AAD6A2893B05 /* Pods-PurchEaseKit_Tests-dummy.m */,
+				B89AA140C48C75CA0F2CE954057D2E0D /* Pods-PurchEaseKit_Tests-frameworks.sh */,
+				BACBEA85678DAF4B5FCEE530A9D6F317 /* Pods-PurchEaseKit_Tests-resources.sh */,
+				876CB1981C5CA73656E4A677C1D2AD85 /* Pods-PurchEaseKit_Tests-umbrella.h */,
+				1A75F3065ADBEBF7D9B63C7D6FF78A15 /* Pods-PurchEaseKit_Tests.debug.xcconfig */,
+				40EFAD35D84C682A1BFAEDF7731F2314 /* Pods-PurchEaseKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-PurchEaseKit_Tests";
+			path = "Target Support Files/Pods-PurchEaseKit_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				34A6E3C2B0115137456D93FB47CA2416 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C600466F6538739FE068272C5F265F0C /* Products */,
+				9282A86575D4BA87ABEABB103B977E32 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81E66B5F6CDE40935C182EC89118256F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3DB0C34033E65CCFA5DEC79F42807B1 /* ResourceBundle-PurchEaseKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PurchEaseKit";
+			sourceTree = "<group>";
+		};
+		8252460250F439B46F8BDAACDFF2C55B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3E60BC1329C59F2E9E28EE7ACFB30B9E /* PurchEaseKit.bundle */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		85464A67C01EAD58E2C76A5DF65E7B76 /* PurchEaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				8252460250F439B46F8BDAACDFF2C55B /* Assets */,
+			);
+			path = PurchEaseKit;
+			sourceTree = "<group>";
+		};
+		9282A86575D4BA87ABEABB103B977E32 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD88FBC9B11EDAC0E7087F4A7B826E0E /* Pods-PurchEaseKit_Example */,
+				4CE00CB2D93FABDCBBC0277004852C6F /* Pods-PurchEaseKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9A26BEC39E55FBA9D3B3879EE1AA7FD3 /* PurchEaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				DAE5FC8B36B1DEF4005B3A7A0D45344C /* Frameworks */,
+				ECB2AD8FC555C3CC5FD642969391B897 /* Resources */,
+				81E66B5F6CDE40935C182EC89118256F /* Support Files */,
+			);
+			name = PurchEaseKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C600466F6538739FE068272C5F265F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D097D8C7CB7756895B716AC762960D96 /* Pods_PurchEaseKit_Example.framework */,
+				72A31ED9C6989E9BE9CC4B063E8FE4E8 /* Pods_PurchEaseKit_Tests.framework */,
+				C7634E2DB4C8D758E7E6BB1708E703F8 /* PurchEaseKit.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAE5FC8B36B1DEF4005B3A7A0D45344C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22BA6992E48EBF3FE5F2D0F0E8464751 /* opencv2.framework */,
+				B4F903892AA3B40D3A1A68D89E251F26 /* PurchEaseKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD88FBC9B11EDAC0E7087F4A7B826E0E /* Pods-PurchEaseKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FCF7E2EDC793C8C13A1C71949C580E7D /* Info.plist */,
+				9029B1419A328F86502E5318C13936A1 /* Pods-PurchEaseKit_Example.modulemap */,
+				75D7FFF2E1E2BB82D91BA6336EBEA8A4 /* Pods-PurchEaseKit_Example-acknowledgements.markdown */,
+				C1C880E248FD6E53790AAB7F5E14DF29 /* Pods-PurchEaseKit_Example-acknowledgements.plist */,
+				7AE4B6E8623B54153C91DBB59B9F3737 /* Pods-PurchEaseKit_Example-dummy.m */,
+				39B076C2601E18E523B30F3E096346FF /* Pods-PurchEaseKit_Example-frameworks.sh */,
+				70A050E3B8F2CDCD51AA4279694AE178 /* Pods-PurchEaseKit_Example-resources.sh */,
+				631DCB329909F15FAFF086D3D42311CE /* Pods-PurchEaseKit_Example-umbrella.h */,
+				62963D3DA744FF6C578F800C1C8CBA62 /* Pods-PurchEaseKit_Example.debug.xcconfig */,
+				F75404A9D357CC3EEF3942C56708A576 /* Pods-PurchEaseKit_Example.release.xcconfig */,
+			);
+			name = "Pods-PurchEaseKit_Example";
+			path = "Target Support Files/Pods-PurchEaseKit_Example";
+			sourceTree = "<group>";
+		};
+		ECB2AD8FC555C3CC5FD642969391B897 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85464A67C01EAD58E2C76A5DF65E7B76 /* PurchEaseKit */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2975D9281BF8BC5395172BA332D78882 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F96C6C74E2717E3399F0D7FD9FA73B /* Pods-PurchEaseKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30A01E35640FA73E9886EBC8468A642 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D9E07AB5D4424CC3414115EB9BEAB3 /* Pods-PurchEaseKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DC40FEC18948171B5483690E4D48818 /* PurchEaseKit-PurchEaseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0401F38D244F56D819FD68D7B26F0968 /* Build configuration list for PBXNativeTarget "PurchEaseKit-PurchEaseKit" */;
+			buildPhases = (
+				0AEC98681A1E501FB150DF6E1B633A84 /* Sources */,
+				01C35AFDBE673A00868971F52D134274 /* Frameworks */,
+				2FEDEEF5F5E26B6E09E559004C0CEE1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PurchEaseKit-PurchEaseKit";
+			productName = "PurchEaseKit-PurchEaseKit";
+			productReference = C7634E2DB4C8D758E7E6BB1708E703F8 /* PurchEaseKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		72CF7A1F473A9543CC1360DBF858C12D /* Pods-PurchEaseKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B188C753FFE1E20F589BB91A1D5CAD91 /* Build configuration list for PBXNativeTarget "Pods-PurchEaseKit_Example" */;
+			buildPhases = (
+				47A4ABD463DE1FBCE8EC6EE14253594A /* Sources */,
+				BD52FE7B9D78121912600920B0EB9894 /* Frameworks */,
+				2975D9281BF8BC5395172BA332D78882 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CB238D8C5E7DA7A4E69F7CEBE5A7671 /* PBXTargetDependency */,
+			);
+			name = "Pods-PurchEaseKit_Example";
+			productName = "Pods-PurchEaseKit_Example";
+			productReference = D097D8C7CB7756895B716AC762960D96 /* Pods_PurchEaseKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA9A097AF812ADA9B20312796C8106A6 /* Pods-PurchEaseKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F8A42E580F0F7F238AB04497C8919B /* Build configuration list for PBXNativeTarget "Pods-PurchEaseKit_Tests" */;
+			buildPhases = (
+				D85632594D7B080B4616B711CF4A2A50 /* Sources */,
+				1F65F8AE39F44245DF68C974A6941CC1 /* Frameworks */,
+				D30A01E35640FA73E9886EBC8468A642 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PurchEaseKit_Tests";
+			productName = "Pods-PurchEaseKit_Tests";
+			productReference = 72A31ED9C6989E9BE9CC4B063E8FE4E8 /* Pods_PurchEaseKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C600466F6538739FE068272C5F265F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72CF7A1F473A9543CC1360DBF858C12D /* Pods-PurchEaseKit_Example */,
+				CA9A097AF812ADA9B20312796C8106A6 /* Pods-PurchEaseKit_Tests */,
+				0DC40FEC18948171B5483690E4D48818 /* PurchEaseKit-PurchEaseKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FEDEEF5F5E26B6E09E559004C0CEE1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204558EDCD39010E2254021C67F0AC81 /* 739-question.png in Resources */,
+				BBC9D89345DC077B356AC7875ED8F4F2 /* 739-question@2x.png in Resources */,
+				52BEB723BCA290A140AD1D71615424B2 /* basket.png in Resources */,
+				C369A8BB9FB384CDABD90B1898D592E1 /* basket@2x.png in Resources */,
+				307BE79CE20BAFD4305C5F556FCF4D3C /* basket@3x.png in Resources */,
+				B798805AFBAD5BC137FE85C6D625FA8F /* black-gradient-background.png in Resources */,
+				009F81C5F3B5AC106136997228AEF5F0 /* black-gradient-background@2x.png in Resources */,
+				57CD84BB520E9EA44A4A7500CC36F16E /* black-gradient-background@3x.png in Resources */,
+				BAC919DC62F6C999E723E43C407FB291 /* cart.png in Resources */,
+				C42CF4C2D55DEBAB05795AF2A911E1D7 /* cart@2x.png in Resources */,
+				12031D92D8EBE6DD9B3F9C123CAE1386 /* cart@3x.png in Resources */,
+				5E8D7FC3F1A859A354F14FB78FA88258 /* check-green.png in Resources */,
+				73F73AA44406FF139CCECB901FCA7FD5 /* check-green@2x.png in Resources */,
+				3A58432D4ABEDC90E147588B2E297237 /* check-green@3x.png in Resources */,
+				16E819632C4FCB0C0AF26320C9D07142 /* close.png in Resources */,
+				3CD3BAA24EF848D7F473DC3676ED0ABE /* close@2x.png in Resources */,
+				26CE3382D61C24D55FF90786F6ECDEEE /* close@3x.png in Resources */,
+				E42154333B1BAF839387B3C32581F0E1 /* degrade.png in Resources */,
+				444E18175D39896B04E602F8880EBF89 /* degrade@2x.png in Resources */,
+				5D7A7E800C52A75EB39F4D5AA37F3A27 /* degrade@3x.png in Resources */,
+				DF953F670D68BFDB3910E6D9FB963A6B /* dont-shake.png in Resources */,
+				E4987F85B0591CC7CBF362DA9E95B613 /* dont-shake@2x.png in Resources */,
+				09E022D846260A10A66FD7A3A129D758 /* dont-shake@3x.png in Resources */,
+				A62DC77544F529694EC61113C4870692 /* hexa-mask.png in Resources */,
+				8109FAE69A31EEBA19D25D3BB705048F /* hexa-mask@2x.png in Resources */,
+				2017B1F65D46C70E907571CC4CC1879C /* hexa-mask@3x.png in Resources */,
+				E3F5770F0490AA1F008B64FDF1B798C3 /* light-off.png in Resources */,
+				0559250C9D3F888B98D20300A8D945A5 /* light-off@2x.png in Resources */,
+				2556A55D716F41AFCCF929993D9AD5ED /* light-off@3x.png in Resources */,
+				D501C22471CC0D657815B1868F2B9196 /* light-on.png in Resources */,
+				BCE3D1E77E33CE488B831A0B80315750 /* light-on@2x.png in Resources */,
+				FD89DF3B860E91081A1183603FCFB047 /* light-on@3x.png in Resources */,
+				6F8CC41A6789CBAB39856D7463CA38B2 /* mini-receipt.png in Resources */,
+				42348C0FE4850CF1973ADA896D1009A8 /* mini-receipt@2x.png in Resources */,
+				34BF705D867DAAFB41CF422120E6102B /* mini-receipt@3x.png in Resources */,
+				F8BCDEFB106C994F44FE23E450A56544 /* receipt-bottom-part-validated.png in Resources */,
+				4201AC40FC3CA4DC43EF49F4F887B1B1 /* receipt-bottom-part-validated@2x.png in Resources */,
+				64254192C90226964B70C30A90AFC6A7 /* receipt-bottom-part-validated@3x.png in Resources */,
+				5FFCFA9A5D71A6BB6705927A159E9762 /* receipt-bottom-part.png in Resources */,
+				323328EF0DD3B9143276AD048AF1698B /* receipt-bottom-part@2x.png in Resources */,
+				5F1031F0DCB07E260C27928C303A15C2 /* receipt-bottom-part@3x.png in Resources */,
+				404E0A82ABC7FB9F7A27C1A72FF35E24 /* receipt-top-part-validated.png in Resources */,
+				B9577D00C3D1AB165250E9D4BB78379A /* receipt-top-part-validated@2x.png in Resources */,
+				44A6986D9F8E27FF072E8AA75AB6E73A /* receipt-top-part-validated@3x.png in Resources */,
+				C2E563733C17F22BBA6068C57A2FA1C9 /* receipt-top-part.png in Resources */,
+				8C6A00B59EA79C7C658269C8C382A267 /* receipt-top-part@2x.png in Resources */,
+				586F6CB4FD24F08807DE8B3B377136F5 /* receipt-top-part@3x.png in Resources */,
+				62B77365C9FD4C8C4B76B3C19C9E7924 /* searching_receipt.png in Resources */,
+				604AA9A0B6A2C41B6DD14570316B99C5 /* searching_receipt@2x.png in Resources */,
+				2AD2D344EE1CFC58394DE34BEF4875C8 /* searching_receipt@3x.png in Resources */,
+				F87BBDA361A4E430221D18C3B58C770A /* shooter-close.png in Resources */,
+				FCC148D1651E4231444DE1D8C69B83CA /* shooter-close@2x.png in Resources */,
+				0C696A744BCFF685B1DAA7A184060882 /* yellow-bubble.png in Resources */,
+				8DDE92CC71589B1B89010D85EFBBBAF7 /* yellow-bubble@2x.png in Resources */,
+				ED3AA0317865365FA2321190D264F19E /* yellow-bubble@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AEC98681A1E501FB150DF6E1B633A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A4ABD463DE1FBCE8EC6EE14253594A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134890FA4D5C4ED75191109BCBBD13DE /* Pods-PurchEaseKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85632594D7B080B4616B711CF4A2A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0870DF872E707C8F8020B1B2416A974 /* Pods-PurchEaseKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CB238D8C5E7DA7A4E69F7CEBE5A7671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PurchEaseKit-PurchEaseKit";
+			target = 0DC40FEC18948171B5483690E4D48818 /* PurchEaseKit-PurchEaseKit */;
+			targetProxy = 3929FE6DBBCE7473A8E2D38879628AD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		365AD4795D5ACBD49626C73FE466AAD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A75F3065ADBEBF7D9B63C7D6FF78A15 /* Pods-PurchEaseKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PurchEaseKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PurchEaseKit_Tests/Pods-PurchEaseKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PurchEaseKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		547A59ACE2593D46628EF07F77D42FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PurchEaseKit";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PurchEaseKit/ResourceBundle-PurchEaseKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PurchEaseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		57EABF6FBE4E38FAEDAACFF11911B829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40EFAD35D84C682A1BFAEDF7731F2314 /* Pods-PurchEaseKit_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PurchEaseKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PurchEaseKit_Tests/Pods-PurchEaseKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PurchEaseKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AD2874AD84389FA7B8CB137CE2B5E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PurchEaseKit";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PurchEaseKit/ResourceBundle-PurchEaseKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PurchEaseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B9AB6AD32792512A021FF3E4D832FD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62963D3DA744FF6C578F800C1C8CBA62 /* Pods-PurchEaseKit_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PurchEaseKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PurchEaseKit_Example/Pods-PurchEaseKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PurchEaseKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E231EE90C65E5A19186B336C591F24F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F75404A9D357CC3EEF3942C56708A576 /* Pods-PurchEaseKit_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PurchEaseKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PurchEaseKit_Example/Pods-PurchEaseKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PurchEaseKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0401F38D244F56D819FD68D7B26F0968 /* Build configuration list for PBXNativeTarget "PurchEaseKit-PurchEaseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547A59ACE2593D46628EF07F77D42FCE /* Debug */,
+				9AD2874AD84389FA7B8CB137CE2B5E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B188C753FFE1E20F589BB91A1D5CAD91 /* Build configuration list for PBXNativeTarget "Pods-PurchEaseKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9AB6AD32792512A021FF3E4D832FD91 /* Debug */,
+				E231EE90C65E5A19186B336C591F24F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F8A42E580F0F7F238AB04497C8919B /* Build configuration list for PBXNativeTarget "Pods-PurchEaseKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365AD4795D5ACBD49626C73FE466AAD9 /* Debug */,
+				57EABF6FBE4E38FAEDAACFF11911B829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
